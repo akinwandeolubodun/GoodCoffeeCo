@@ -28,6 +28,7 @@ body {
     background-color: #323232;
     color: #fff;
     padding: 1em !important;
+    border-radius: 2em;
 }
 
 .features p {
@@ -42,11 +43,11 @@ body {
 }
 
 .video {
-    width: 50%
+    width: 50%      
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: greenyellow;
     padding: 1em;
     color: #6c757d;
 }
@@ -69,3 +70,21 @@ footer ul {
 footer li {
     margin: 0 1em;
 }
+  
+  /********************
+  MEDIA QUERIES
+  ********************/
+  
+  @media screen and (max-width: 776px) {
+    .video {
+      width: 90%;
+    }
+  
+    footer .col-md-4 {
+      margin-top: 20px;
+    }
+  }
+  
+/* #Extra {
+    text-align: center;
+} */
